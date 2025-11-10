@@ -2,9 +2,9 @@
 import streamlit as st
 from agent_utils import get_search_results
 
-st.set_page_config(page_title="🧠 Welcome to Gok AI", page_icon="🤖")
+st.set_page_config(page_title="Welcome to GOKAI", page_icon="🤖")
 
-st.title("🧠 Welcome to Gok AI")
+st.title("🔍 Welcome to GOKAI")
 
 query = st.text_input("Enter your query:", placeholder="e.g. What are the latest trends in Generative AI?")
 
